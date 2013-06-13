@@ -8,7 +8,30 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
+ *= require foundation_and_overrides
  *= require_self
  *= require_tree .
  */
- *= require foundation_and_overrides
+
+ 
+ 
+
+ body {
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+        font-family: "Lucida Grande", "Bitstream Vera Sans", "Verdana";
+        font-size: 13px;
+        color: #333;
+      }
+
+nav.top-bar{ 
+		height: 61px;
+		padding-left: 36px;
+	}
+div.vlad-picts {
+	margin-left: 180px;
+}
+div.orbit-container {
+	width: 406px;
+}
