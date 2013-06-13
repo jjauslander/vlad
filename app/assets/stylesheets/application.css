@@ -30,7 +30,11 @@ nav.top-bar{
 		padding-left: 36px;
 	}
 div.vlad-picts {
-	margin-left: 180px;
+	margin-left: 30%;
+}
+
+div.vlad-picts h1 {
+	margin-left: -10%;
 }
 div.orbit-container {
 	width: 406px;
